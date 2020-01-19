@@ -1,0 +1,21 @@
+{
+  "name": "nalzza",
+  "version": "0.0.0",
+  "description": "Parses from any date notation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnlow/Nalzza.git"
+  },
+  "keywords": [],
+  "author": "Gnlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnlow/Nalzza/issues"
+  },
+  "homepage": "https://github.com/gnlow/Nalzza#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
