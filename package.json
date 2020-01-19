@@ -2,8 +2,12 @@
   "name": "nalzza",
   "version": "0.0.0",
   "description": "Parses from any date notation",
-  "main": "index.js",
-  "scripts": {},
+  "source": "sec/index.ts",
+  "main": "dist/nalzza.js",
+  "unpkg": "dist/nalzza.umd.js",
+  "scripts": {
+    "build": "tsc src/index"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gnlow/Nalzza.git"
@@ -16,6 +20,6 @@
   },
   "homepage": "https://github.com/gnlow/Nalzza#readme",
   "devDependencies": {
-    "typescript": "^3.7.5"
+    "microbundle": "^0.12.0-next.7"
   }
 }
