@@ -1,0 +1,1 @@
+var t=(new Date).getFullYear().toString().substring(2);exports.nalzza=function(a){var e,r,n,d=/(\d{4}|\d{2}).*?(1[0-2]|[1-9]).*?(\d{1,2})/.exec(a),g=d[1],l=d[3];return 2==g.length&&(e=(g>t?"19":"20")+g),r=d[2].padStart(2,"0"),n=l.padStart(2,"0"),new Date(e+"-"+r+"-"+n)};

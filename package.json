@@ -2,11 +2,10 @@
   "name": "nalzza",
   "version": "0.0.0",
   "description": "Parses from any date notation",
-  "source": "sec/index.ts",
+  "source": "src/index.ts",
   "main": "dist/nalzza.js",
-  "unpkg": "dist/nalzza.umd.js",
   "scripts": {
-    "build": "tsc src/index"
+    "build": "microbundle --no-sourcemap"
   },
   "repository": {
     "type": "git",
